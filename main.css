@@ -5,11 +5,23 @@ html{
 }
 
 h1{
-  font: Merriweather, serif;
+  font: "playfair Display", serif;
   font-size: 36px;
 }
 
 h2{
   font: "Playfair Display", serif;
   font-size: 30px;
+}
+
+@media only screen (minwidth: 600px){
+  .book{
+    max-width: 75vw;
+  }
+}
+
+@media only screen (min-width: 900px){
+  .book{
+    max-width: 50vw;
+  }
 }
