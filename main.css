@@ -20,6 +20,11 @@ h2{
   line-height: 2em;
 }
 
+.home{
+  height: 75vh;
+  background-image: url("people.jpg");
+}
+
 @media only screen and (min-width: 600px){
   .book{
     width: 75vw;
