@@ -1,27 +1,24 @@
 html{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-
-}
-
-body{
-  line-height: 1.5em;
+  line-height: 1.5;
   font-size: 1.5em;
 }
+
 
 .index{
   background-color: #ff9999;
 }
 
 h1{
-  font: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 36px;
-  line-height: 2em;
+  line-height: 2;
 }
 
 h2{
-  font: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 30px;
-  line-height: 2em;
+  line-height: 2;
 }
 
 #title{
