@@ -8,6 +8,10 @@ body{
   font-size: 1.5em;
 }
 
+.index{
+  background-color: #ff9999;
+}
+
 h1{
   font: "Playfair Display", serif;
   font-size: 36px;
@@ -20,19 +24,82 @@ h2{
   line-height: 2em;
 }
 
+#title{
+  font-size: 2em;
+  color: #00ff99;
+  text-shadow: 2px 2px 5px black;
+}
+
+#subtitle{
+  color: #f93822;
+  text-shadow: 2px 2px 5px white;
+  font-weight: bold;
+  text-indent: 45px;
+}
+
+#title,
+#subtitle{
+  margin: 0px;
+}
+
 .home{
   height: 75vh;
+  width: 100vw;
   background-image: url("people.jpg");
 }
 
 @media only screen and (min-width: 600px){
   .book{
     width: 75vw;
+    text-align: center;
+    background-color: #9966ff;
   }
+  .pic{
+    width:50vw;
+    float: right;
+  }
+
+
 }
 
 @media only screen and (min-width: 900px){
   .book{
     width: 50vw;
+    text-align: center;
+    background-color: #9966ff;
   }
+  .pic{
+    width: 45vw;
+    float: right;
+ }
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 1em;
+  width: 100%;
+}
+
+html * {
+
+    box-sizing: border-box;
+}
+
+.side ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    background-color: #ccccff;
+    box-shadow: 0px 15px 34px -1px;
+}
+
+body {
+    margin: 0;
+}
+
+.pic{
+  max-width: 100%;
 }
